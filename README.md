@@ -64,5 +64,151 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rdapapi-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rdapapi.io/
+RDAP API provides developers with a modern, JSON-native WHOIS replacement, delivering normalized domain registration data across over 1,200 top-level domains. It offers a 7‑day free trial and paid plans starting at $9 per month, enabling easy integration of domain lookup capabilities into applications without parsing raw WHOIS text.
+
+**Areas:** Company · RDAP · Domain · API · Whois
+
+## rdapapi-io on APIs.io
+
+Everything profiled for rdapapi-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rdapapi-io/](https://apis.io/providers/rdapapi-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [rdapapi-io ASN API](https://apis.io/apis/rdapapi-io/rdapapi-io-asn-api/) — Look up an Autonomous System Number.
+- [rdapapi-io Domain API](https://apis.io/apis/rdapapi-io/rdapapi-io-domain-api/) — Look up one domain, or up to 10 in a single call with the bulk endpoint.
+- [rdapapi-io Entity API](https://apis.io/apis/rdapapi-io/rdapapi-io-entity-api/) — Look up a contact or organization by RDAP handle.
+- [rdapapi-io Health API](https://apis.io/apis/rdapapi-io/rdapapi-io-health-api/) — Uptime checks.
+- [rdapapi-io IP API](https://apis.io/apis/rdapapi-io/rdapapi-io-ip-api/) — Look up an IP address or CIDR block.
+- [rdapapi-io Nameserver API](https://apis.io/apis/rdapapi-io/rdapapi-io-nameserver-api/) — Look up a nameserver host record, for the registries that publish one.
+- [rdapapi-io TLDs API](https://apis.io/apis/rdapapi-io/rdapapi-io-tlds-api/) — Check which TLDs are supported, in bulk or one at a time.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Rdapapi Io Agentic Access](https://apis.io/agentic-access/rdapapi-io/rdapapi-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AsnResponse](https://apis.io/schemas/rdapapi-io/rdapapi-io-asn-response/)
+- [DomainResponse](https://apis.io/schemas/rdapapi-io/rdapapi-io-domain-response/)
+- [EntityResponse](https://apis.io/schemas/rdapapi-io/rdapapi-io-entity-response/)
+- [IpResponse](https://apis.io/schemas/rdapapi-io/rdapapi-io-ip-response/)
+- [NameserverResponse](https://apis.io/schemas/rdapapi-io/rdapapi-io-nameserver-response/)
+- [TldEntry](https://apis.io/schemas/rdapapi-io/rdapapi-io-tld-entry/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rdapapi Io Context](https://apis.io/jsonld/rdapapi-io/rdapapi-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [rdapapi-io API Rules](https://apis.io/rules/rdapapi-io/rdapapi-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rdapapi Io Authentication](https://apis.io/security/rdapapi-io/rdapapi-io-authentication/)
+- [Rdapapi Io Domain Security](https://apis.io/security/rdapapi-io/rdapapi-io-domain-security/)
+- [Rdapapi Io Vulnerability Disclosure](https://apis.io/security/rdapapi-io/rdapapi-io-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Rdapapi Io Scopes](https://apis.io/scopes/rdapapi-io/rdapapi-io-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rdapapi Io Plans Pricing](https://apis.io/plans/rdapapi-io/rdapapi-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rdapapi Io Rate Limits](https://apis.io/rate-limits/rdapapi-io/rdapapi-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rdapapi.io/)
+- [Documentation](https://rdapapi.io/docs)
+- [Getting started](https://rdapapi.io/docs)
+- [API reference](https://rdapapi.io/docs)
+- [Pricing](https://rdapapi.io/pricing)
+- [Sign up](https://rdapapi.io/register)
+- [Support](https://rdapapi.io/contact)
+- [Blog](https://rdapapi.io/blog)
+- [Security](https://rdapapi.io/toms)
+- [Terms of service](https://rdapapi.io/terms)
+- [Privacy policy](https://rdapapi.io/privacy)
+- [Status](https://status.rdapapi.io)
+
+## API Evangelist rating
+
+**Kin Score 72.3** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 65.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 70.5 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 73.2 |
+
+**Agent readiness 59.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rdapapi-io/](https://apis.io/providers/rdapapi-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for rdapapi-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rdapapi-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
